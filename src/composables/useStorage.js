@@ -8,7 +8,7 @@ import { useUser } from "./useUser";
 const { getUser } = useUser();
 const { user } = getUser();
 
-const useStorage = (name) => {
+const useStorage = (name) => {  
 
     var filePath = reactive("");
 
